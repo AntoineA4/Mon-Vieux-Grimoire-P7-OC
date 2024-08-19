@@ -1,5 +1,5 @@
-const Book = require('../models/Books');
 const fs = require('fs');
+const Book = require('../models/Books');
 
 exports.addBook = (req, res, next) => {
   const bookObject = JSON.parse(req.body.book);
